@@ -222,6 +222,11 @@ nav {
 
 .project {
   position: relative;
+  transition: all ease 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.2);
 }
 
 .overlay {
