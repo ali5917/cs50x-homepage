@@ -1,0 +1,133 @@
+@media (max-width: 1200px) {
+    .container.main {
+      display: block;
+      text-align: center;
+    }
+    .main-text h1 {
+      font-size: 70px;
+    }
+    .main img {
+      margin-top: 15px;
+    }
+    .peak button:hover {
+      transform: scale(1.1);
+    }
+  
+    .me {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .name {
+      font-size: 75px;
+    }
+  
+    .brief {
+      font-size: 40px;
+    }
+  
+  }
+  
+  
+  @media (max-width: 990px) {
+    .me {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .name {
+      font-size: 50px;
+      text-align: center;
+    }
+  
+    .brief {
+      font-size: 30px;
+    }
+  
+    .socials img {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .body img, .body video {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .body-text p {
+      font-size: 25px;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .main img {
+      width: 450px;
+    }
+    .peak {
+      display: block;
+      text-align: center;
+      width: 95%;
+    }
+    .sure-btn {
+      margin-top: 20px;
+    }
+    .peak button:hover {
+      transform: scale(1.2);
+    }
+  
+    .me {
+      display: none;
+    }
+  
+    .name {
+      font-size: 60px;
+      text-align: center;
+    }
+  
+    .brief {
+      font-size: 30px;
+    }
+  
+    .socials img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .body {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .body img, .body video {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .body-text p {
+      font-size: 20px;
+    }
+  
+    .layer {
+      flex-direction: column;
+      gap: 60px;
+    }
+  
+    .project-intro {
+      font-size: 35px;
+      line-height: 35px;
+      margin-bottom: 60px;
+    }
+  
+    .plans-text {
+      font-size: 25px;
+    }
+  
+    .quote {
+      font-size: 25px;
+    }
+  
+    .quote-credits {
+      font-size: 15px;
+    }
+  }   
