@@ -1,2 +1,1 @@
-# cs50x-homepage
-CS50x Project
+This is part of the Problem Set 8 in CS50x by Harvard.
