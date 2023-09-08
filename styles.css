@@ -120,6 +120,12 @@ nav {
 
 .imp {
   color: rgb(1, 224, 194);
+  text-decoration: none;
+}
+
+.imp:hover {
+  color: rgb(217, 255, 0);
+  transition: all ease 0.3s;
 }
 
 .head {
@@ -296,15 +302,6 @@ nav {
   border-radius: 10px;
 }
 
-.plans-text a {
-  text-decoration: none;
-  transition: all ease 0.3s;
-}
-
-.plans-text a:hover {
-  color: rgb(217, 255, 0);
-}
-
 .quote-cont {
   display: flex;
   flex-direction: column;
@@ -325,3 +322,4 @@ nav {
   align-self: flex-end;
   font-size: 25px;
 }
+
